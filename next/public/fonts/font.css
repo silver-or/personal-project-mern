@@ -1,0 +1,18 @@
+@font-face {
+    font-family: "Cooper Black"; 
+    src: url("//db.onlinewebfonts.com/t/9a4b138bd9c8e1eba20dbd6a0bb1d832.eot");
+}
+
+@font-face {
+    font-family: 'KOMACON';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_seven@1.2/KOMACON.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GowunDodum-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/GowunDodum-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
