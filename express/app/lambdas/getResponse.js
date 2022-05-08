@@ -1,4 +1,3 @@
-
 const getResponse = () =>{
     return {
         successResponse(res, msg) {

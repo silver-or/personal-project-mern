@@ -38,7 +38,7 @@ export function Header(props) {
             <SearchIcon />
             </IconButton>
             <Button variant="outlined" size="small">
-            Sign up
+              Sign up
             </Button>
         </Toolbar>
         <Toolbar
@@ -56,7 +56,7 @@ export function Header(props) {
                 underline="none"
                 sx={{ p: 1, flexShrink: 0 }}
             >
-                {section.title}
+              {section.title}
             </Link>
             ))}
         </Toolbar>

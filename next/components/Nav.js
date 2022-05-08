@@ -6,10 +6,10 @@ import {Header} from '@/components';
 import theme from '@/public/myTheme.js';
 
 const sections = [
-  { title: '글쓰기', url: '/basic/write' },
-  { title: '조회', url: '/basic/list' },
-  { title: '수정', url: '/basic/update' },
-  { title: '삭제', url: '/basic/delete' }
+  { title: '글쓰기', url: '/board/write' },
+  { title: '조회', url: '/board/list' },
+  { title: '수정', url: '/board/update' },
+  { title: '삭제', url: '/board/delete' }
 ];
 
 export function Nav() {
