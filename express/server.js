@@ -32,7 +32,7 @@ async function startServer() {
             console.log(' ### 몽고DB 연결 성공 ### ')
         })
         .catch(err => {
-            console.log(' 몽고DB와 연결 실패', err)
+            console.log('몽고DB와 연결 실패', err)
             process.exit();
         });
     

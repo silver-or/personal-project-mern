@@ -7,6 +7,8 @@ import IconButton from '@mui/material/IconButton';
 import SearchIcon from '@mui/icons-material/Search';
 import Typography from '@mui/material/Typography';
 import Link from '@mui/material/Link';
+import 'bootstrap/dist/css/bootstrap.css';
+import styles from "@/styles/Header.module.css"
 
 export function Header(props) {
   const { sections, title } = props;
@@ -30,7 +32,9 @@ export function Header(props) {
             color="inherit"
             align="center"
             noWrap
-            sx={{ flex: 1 }}
+            className={styles.none}
+            sx={{ flex: 1 }
+          }
             >
                 <a href="/">{title}</a>
             </Typography>

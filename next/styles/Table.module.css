@@ -1,29 +1,36 @@
 .table {
-    margin: 10px 0;
+    margin: 0 auto;
+    margin-top: 50px;
     font-size: 15px;
-    width: 100%;
-    border: 1px solid black;
-}
-
+    width: 900px;
+    padding: 2rem;
+    font-family: 'KOMACON';
+  }
+  
 .table thead th {
-    background-color: white;
-    color: black;
     text-align: center;
-    font-weight: bold;
-    height: 20px;
-    border: 1px solid black;
+    height: 30px;
 }
 
 .table td {
     padding: 12px 15px;
-    border: 1px solid black;
+    color: black;
     text-align: center;
 }
 
 .table tbody tr {
-    border: 1px solid black;
 }
 
 .table tbody tr:last-of-type {
-    border: 1px solid black;
+}
+
+.nav {
+    margin: 0 auto;
+    letter-spacing: 5rem;
+    font-size: 15px;
+    width: 900px;
+    text-align: center;
+    border-radius: 10px;
+    /* border: 2px solid #b9ceac; */
+    background-color: #FCEDDA;
 }

@@ -7,9 +7,7 @@ import theme from '@/public/myTheme.js';
 
 const sections = [
   { title: '글쓰기', url: '/board/write' },
-  { title: '조회', url: '/board/list' },
-  { title: '수정', url: '/board/update' },
-  { title: '삭제', url: '/board/delete' }
+  { title: '조회', url: '/board/list' }
 ];
 
 export function Nav() {
